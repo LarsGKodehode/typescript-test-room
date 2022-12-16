@@ -35,6 +35,7 @@ const TSExample: React.FC<Props> = (props: Props) => {
   return (
     <div
     // Since this is optional, check if undefined
+    // Uses the array method for joining them up into a single string
       className={[
         "bg-slate-400 p-4 rounded-md",
         props.hidden && "hidden",
